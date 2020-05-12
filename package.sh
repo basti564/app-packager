@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "[*] Welcome to basti564's automatic fakesigner"
+echo "[*] Welcome to basti564's automatic .app to .ipa packager"
 for f in *.app; do
   echo "[*] Working on ${f:0:${#f}-4}.."
   mkdir Payload
